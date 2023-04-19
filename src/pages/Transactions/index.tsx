@@ -8,6 +8,7 @@ import {
   TransactionsTable,
 } from "./styles";
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
+import { SearchForm } from "./components/SearchForm";
 
 export function Transactions() {
   const { transactions } = useContext(TransactionsContext);
@@ -18,6 +19,7 @@ export function Transactions() {
       <Summary />
 
       <TransactionsContainer>
+        <SearchForm />
         <TransactionsTable>
           <tbody>
             {transactions.map((transaction) => {
