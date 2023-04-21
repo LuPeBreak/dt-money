@@ -23,30 +23,6 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2023-04-18T19:23:17.595Z"
-    },
-    {
-      "description": "Desenvolvimento de App",
-      "price": 3000,
-      "category": "Dev",
-      "type": "income",
-      "createdAt": "2023-04-20T17:42:58.760Z",
-      "id": 4
-    },
-    {
-      "description": "Maquiagem",
-      "price": 200,
-      "category": "Beleza",
-      "type": "outcome",
-      "createdAt": "2023-04-20T17:44:23.755Z",
-      "id": 5
-    },
-    {
-      "description": "Teste",
-      "price": 123,
-      "category": "teste",
-      "type": "income",
-      "createdAt": "2023-04-20T17:58:57.120Z",
-      "id": 6
     }
   ]
 }
